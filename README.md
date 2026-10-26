@@ -1,5 +1,6 @@
 # BIPATE 1.0.0 (Bespoke Integrative Preprocessing and Analysis Toolbox for EEG) 
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23656717.svg)](https://doi.org/10.5281/zenodo.23656717)
+
 BIPATE is a MATLAB and EEGLAB add-on created as a versatile toolbox for electrophysiology researchers.
 
 ![BIPATE main window](docs/BIPATE_GUI.png)
