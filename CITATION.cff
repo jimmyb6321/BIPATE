@@ -17,5 +17,5 @@ keywords:
   - MATLAB
   - high-density EEG
   - artifact rejection
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.23656717
 repository-code: "https://github.com/jimmyb6321/BIPATE"

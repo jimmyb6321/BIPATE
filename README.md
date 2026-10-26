@@ -1,4 +1,5 @@
 # BIPATE 1.0.0 (Bespoke Integrative Preprocessing and Analysis Toolbox for EEG) 
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23656717.svg)](https://doi.org/10.5281/zenodo.23656717)
 BIPATE is a MATLAB and EEGLAB add-on created as a versatile toolbox for electrophysiology researchers.
 
 ![BIPATE main window](docs/BIPATE_GUI.png)
@@ -51,7 +52,7 @@ Use the automated detection methods at your own risk, they have not been validat
 | Load Data | loads data into the BIPATE-friendly .set files | none | _raw |
 | Channel setup | cross-checks channel location and metadata against saved channel locations, also gives options to split peripheral channels off or tuck them away into EEG.etc | peripheral channel selection, peripheral labeling, split files | _chanSetup, _splitChannels (holds split channels) |
 | Edit event markers (video) | allows addition, removal, or editing of events. is able to view video alongside if an mp4 is available | Video Editor GUI | _videoEdited |
-| Segmentation | use single-span, global, or periodic rules to cut segments out of the data, or to split a recording | segmentation GUI | _segmented (or _segment001, _segment002 if split into multiple files) | 
+| Segmentation | use span, global, or periodic rules to cut segments out of the data, or to split a recording | segmentation GUI | _segmented (or _segment001, _segment002 if split into multiple files) | 
 | Downsampling | downsamples data to target frequency | target frequency (if not set in settings) | _resampled |
 | Filter | low-pass, high-pass, and notch filtering. can add more than one notch filters (comma separated) | filter frequencies (if not set in settings) | _filtered |
 | Bad channel detection | remove artifact-heavy channels (semi-automated gives options for detectors) | detector selection, channel removal, other data to help you out in decisions | _badChanFlag |
@@ -213,9 +214,9 @@ BIPATE is released under the MIT license -- see `LICENSE`
 
 ## How to cite
 
-Barlow, J. (2026). BIPATE: Bespoke Integrative Preprocessing and Analysis Toolbox for EEG (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Barlow, J. (2026). BIPATE: Bespoke Integrative Preprocessing and Analysis Toolbox for EEG (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23656717
 
-Use the "Cite this repository" for ease of citing.
+Use the **Cite this repository** button on the GitHub page.
 
 
 ## Contact
@@ -232,12 +233,13 @@ Collaborators on this project
 
 BIPATE is built on EEGLAB and the following plug-ins--please cite them too!
 
-EEGLAB: Delorme, A., & Makeig, S. (2004). J Neurosci Methods, 134(1), 9–21. doi:10.1016/j.jneumeth.2003.10.009
-ICLabel: Pion-Tonachini, L., Kreutz-Delgado, K., & Makeig, S. (2019). NeuroImage, 198, 181–197. doi:10.1016/j.neuroimage.2019.05.026
-PICARD: Ablin, P., Cardoso, J.-F., & Gramfort, A. (2018). IEEE Trans Signal Process, 66(15), 4040–4049. doi:10.1109/TSP.2018.2844203
-AMICA: Palmer, J. A., Kreutz-Delgado, K., & Makeig, S. (2011). AMICA: An adaptive mixture of independent component analyzers with shared components. Technical report, Swartz Center for Computational Neuroscience, UC San Diego.
-FastICA: Hyvärinen, A. (1999). IEEE Trans Neural Netw, 10(3), 626–634. doi:10.1109/72.761722
-FieldTrip: Oostenveld, R., Fries, P., Maris, E., & Schoffelen, J.-M. (2011). Comput Intell Neurosci, 2011, 156869. doi:10.1155/2011/156869
-BioSig: Vidaurre, C., Sander, T. H., & Schlögl, A. (2011). Comput Intell Neurosci, 2011, 935364. doi:10.1155/2011/935364. Some databases list Schlögl first; PubMed lists Vidaurre first, so go with that.
-firfilt: Widmann, A., Schröger, E., & Maess, B. (2015). J Neurosci Methods, 250, 34–46.
-Surface Laplacian: Perrin, F., Pernier, J., Bertrand, O., & Echallier, J. F. (1989). Electroencephalogr Clin Neurophysiol, 72(2), 184–187. Also cite the 1990 corrigendum (Electroencephalogr Clin Neurophysiol, 76, 565), which fixed an error in the current-density equation.
+-EEGLAB: Delorme, A., & Makeig, S. (2004). J Neurosci Methods, 134(1), 9–21. doi:10.1016/j.jneumeth.2003.10.009
+-ICLabel: Pion-Tonachini, L., Kreutz-Delgado, K., & Makeig, S. (2019). NeuroImage, 198, 181–197. doi:10.1016/j.neuroimage.2019.05.026
+-PICARD: Ablin, P., Cardoso, J.-F., & Gramfort, A. (2018). IEEE Trans Signal Process, 66(15), 4040–4049. doi:10.1109/TSP.2018.2844203
+-AMICA: Palmer, J. A., Kreutz-Delgado, K., & Makeig, S. (2011). AMICA: An adaptive mixture of independent component analyzers with shared components. Technical report, -Swartz Center for Computational Neuroscience, UC San Diego.
+-FastICA: Hyvärinen, A. (1999). IEEE Trans Neural Netw, 10(3), 626–634. doi:10.1109/72.761722
+-FieldTrip: Oostenveld, R., Fries, P., Maris, E., & Schoffelen, J.-M. (2011). Comput Intell Neurosci, 2011, 156869. doi:10.1155/2011/156869
+-BioSig: Vidaurre, C., Sander, T. H., & Schlögl, A. (2011). Comput Intell Neurosci, 2011, 935364. doi:10.1155/2011/935364.
+-firfilt: Widmann, A., Schröger, E., & Maess, B. (2015). J Neurosci Methods, 250, 34–46.
+-Surface Laplacian: Perrin, F., Pernier, J., Bertrand, O., & Echallier, J. F. (1989). Electroencephalogr Clin Neurophysiol, 72(2), 184–187. 
+-Corrigendum: Electroencephalogr Clin Neurophysiol, 76, 565
