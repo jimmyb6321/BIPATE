@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movieSyncs xmlns="http://www.egi.com/movieSyncs_mff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <movieSync>
+        <fileName>DEMO_20260828_091411_1.mp4</fileName>
+        <sampleBeginTime>0</sampleBeginTime>
+        <sampleEndTime>89100000</sampleEndTime>
+        <videoBeginTime>0.000000000</videoBeginTime>
+        <videoEndTime>89.083333</videoEndTime>
+        <category>-1</category>
+        <segment>-1</segment>
+    </movieSync>
+    <movieSync>
+        <fileName>DEMO_20260828_091411_2.mp4</fileName>
+        <sampleBeginTime>91800000</sampleBeginTime>
+        <sampleEndTime>180000000</sampleEndTime>
+        <videoBeginTime>0.000000000</videoBeginTime>
+        <videoEndTime>88.166667</videoEndTime>
+        <category>-1</category>
+        <segment>-1</segment>
+    </movieSync>
+</movieSyncs>

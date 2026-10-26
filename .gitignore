@@ -1,0 +1,26 @@
+# personal files now live in <userpath>\BIPATE_user (bipateUserDir); these lines only guard against old copies
+permanent_variables/eeglabPath.mat
+permanent_variables/userPreferences.mat
+permanent_variables/userInfo.mat
+permanent_variables/jobTimes.mat
+permanent_variables/batch_history/
+
+# dev-only test caps (not part of the package)
+permanent_variables/testCap.mat
+permanent_variables/testCap2.mat
+permanent_variables/nxe_testCap.mat
+
+# MATLAB autosaves / backups
+*.asv
+*.bak
+*.m~
+
+# pipeline output if a demo run writes inside the repo
+testData/0*_*/
+testData/99_*/
+testData/QC/
+testData/Configurations/
+
+# never commit real recordings
+*.mff/signal*.bin
+!testData/DEMO_*.mff/**

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use BIPATE, please cite it as below, and also cite EEGLAB and the plugins your pipeline used."
+title: "BIPATE: Bespoke Integrative Preprocessing and Analysis Toolbox for EEG"
+type: software
+authors:
+  - family-names: Barlow
+    given-names: James
+    affiliation: "Department of Psychiatry and Department of Anesthesiology, University of Wisconsin-Madison"
+    email: bipatecoding@gmail.com
+version: 1.0.0
+date-released: 2026-10-26
+license: MIT
+keywords:
+  - EEG
+  - preprocessing
+  - EEGLAB
+  - MATLAB
+  - high-density EEG
+  - artifact rejection
+# doi: 10.5281/zenodo.XXXXXXX
+repository-code: "https://github.com/jimmyb6321/BIPATE"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PNSSet xmlns="http://www.egi.com/pnsSet_mff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <sensors>
+      <sensor>
+         <name>ECG</name>
+         <number>1</number>
+         <psgType>0</psgType>
+         <mapping>0</mapping>
+         <samplingRate>0</samplingRate>
+      </sensor>
+   </sensors>
+</PNSSet>

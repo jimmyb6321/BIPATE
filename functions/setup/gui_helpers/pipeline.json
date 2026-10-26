@@ -1,0 +1,4 @@
+[
+  "loadData", "chanSetup", "videoEditor", "segmentation", "demean", "downsample", "filter", "badChan",
+  "segReject", "reref", "ica", "segReject", "ica", "compRemoval", "reref", "interp", "applyCuts", "exportQC"
+]
